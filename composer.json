@@ -1,8 +1,6 @@
 {
-    // package name
     "name": "mixshop/yii2-polymer",
 
-    // package type
     "type": "yii2-extension",
 
     "description": "Polymer Library (www.polymer-project.org/)",
@@ -20,17 +18,16 @@
         }
     ],
 
-    // package dependencies
     "require": {
         "bower-asset/polymer-polymer": "*"
     },
 
-    // class autoloading specs
     "autoload": {
         "psr-4": {
             "yii\\polymer\\": ""
         }
-    }
+    },
+	
 	"extra": {
         "branch-alias": {
             "dev-master": "2.0.x-dev"

@@ -1,0 +1,39 @@
+{
+    // package name
+    "name": "mixshop/yii2-polymer",
+
+    // package type
+    "type": "yii2-extension",
+
+    "description": "Polymer Library (www.polymer-project.org/)",
+    "keywords": ["ploymer"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/mixshop/yii2-polymer/issues",
+        "wiki": "https://github.com/mixshop/yii2-polymer/wiki",
+        "source": "https://github.com/mixshop/yii2-polymer"
+    },
+    "authors": [
+        {
+            "name": "Jing Guo",
+            "email": "jing@mixshop.com"
+        }
+    ],
+
+    // package dependencies
+    "require": {
+        "bower-asset/polymer-polymer": "*"
+    },
+
+    // class autoloading specs
+    "autoload": {
+        "psr-4": {
+            "yii\\polymer\\": ""
+        }
+    }
+	"extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
